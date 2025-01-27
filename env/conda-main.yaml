@@ -1,0 +1,8 @@
+name: corc
+
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python=3.8

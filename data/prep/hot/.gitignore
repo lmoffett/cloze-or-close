@@ -1,0 +1,5 @@
+# These include large parts of the comments and labels, so sharing it would violate the license
+hot_perturbation_metadata.csv
+hot-replacement-priority.csv
+hot-class-replacements.csv
+hot-word-freq.csv

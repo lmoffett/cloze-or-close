@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__
+**/*.pyc
+.pytest_cache
+.env
+
+# Training
+logs
+lightning_logs
+output
+wandb
+models
+training
+
+results/*/checkpoints
+# Outputs from experiments
+data/datasets/abstract/abstracts.csv
+data/datasets/hot
+hf/

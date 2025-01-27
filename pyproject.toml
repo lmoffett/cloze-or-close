@@ -1,0 +1,19 @@
+[project]
+name = "close-or-cloze"
+description = "Analysis of LLM's ability to recovery words that contain perturbed characters."
+version = "1.0"
+authors = ["REDACTED"]
+requires-python = ">=3.8"
+license = {}
+dynamic = ["dependencies", "optional-dependencies"]
+
+dependencies = {file=["dev/requirements.txt"]}
+
+[tool.setuptools]
+packages = ["clz_or_cls"]
+package-dir = "."
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+include = '\.pyi?$|\.ipynbi?$'
